@@ -21,7 +21,7 @@ object QueryProcess {
   }
 
 
-  def  queryRead (queryFile :String):DataFrame=
+  def  queryRead (queryFile:String): DataFrame =
   {
     val requetecontenu = Source.fromFile(queryFile).getLines()
     val Originalreq=  requetecontenu.next()   // next() => extraire la premiere string du iterator of string (ya9ra la valeur mbaed ya9ra li baadha ama houni j'ai qu'une seule donc yakraha heya)
