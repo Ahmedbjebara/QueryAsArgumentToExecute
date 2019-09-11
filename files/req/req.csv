@@ -1,0 +1,1 @@
+SELECT * FROM global_temp.Historical WHERE volume > 11961820.0000 and low > 400.0000
